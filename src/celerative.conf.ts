@@ -40,7 +40,7 @@ export const config: Config = {
 	multiCapabilities: BrowserUtilities.multiCapabilitiesConfigs,
 
 	suites: {
-		psh: ['./psh/tests/*.js'],
+		celerative: ['./celerative/tests/*.js'],
 	},
 
 	plugins: PluginUtilities.pluginConfig,
