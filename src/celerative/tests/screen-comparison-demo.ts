@@ -1,5 +1,4 @@
 import { browser, protractor } from 'protractor';
-import { contactPage } from '../page-objects/contact-page';
 import { homePage } from '../page-objects/home-page';
 const EC = protractor.ExpectedConditions;
 describe('Psh site validations - Visual Test Demo', () => {
@@ -17,13 +16,6 @@ describe('Psh site validations - Visual Test Demo', () => {
 
 		await homePage.click(homePage.contactUs);
 
-		// Check a screen
-		await browser.wait(EC.visibilityOf(contactPage.nameField), 5000, 'Name field is not visible in the page');
-		expect(
-			await browser.imageComparison.checkScreen('contactUsFillExample', {
-				/* some options*/
-			}),
-		).toEqual(0);
 
 		/***
       All compare options can also be used for checkElement,checkScreen and checkFullPageScreens:

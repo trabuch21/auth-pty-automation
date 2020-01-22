@@ -9,7 +9,7 @@ export abstract class BrowserUtilities {
 	static chromeConfigs = {
 		browserName: 'chrome',
 		chromeOptions: {
-			args: ['--headless', '--window-size=1550,768', '--no-sandbox', '--disable-dev-shm-usage'],
+			args: [ '--window-size=1550,768', '--no-sandbox', '--disable-dev-shm-usage'],
 		},
 		shardTestFiles: false,
 		maxInstances: 1,

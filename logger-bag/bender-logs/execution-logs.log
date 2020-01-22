@@ -1,43 +1,5 @@
-2020-01-22T20:29:52.509Z - info: 
+2020-01-22T21:27:30.875Z - info: 
  • Current test running: 
-	 • Psh site validations Site language should change
+	 • Suite 1 Test 1
 
-2020-01-22T20:30:01.502Z - info: This text: 'HOME' was obtained from locator:  div[class="navbar-left-1"] ul[class$="navbar-left"] li:first-child a[href^="/e"]
-2020-01-22T20:30:02.916Z - info: The element:  a[class="language--link"] was clicked
-2020-01-22T20:30:04.800Z - info: The element:  ul[class="language--tooltip"] a[data-language='es'] was clicked
-2020-01-22T20:30:05.138Z - info: This text: 'INICIO' was obtained from locator:  div[class="navbar-left-1"] ul[class$="navbar-left"] li:first-child a[href^="/e"]
-2020-01-22T20:30:06.301Z - info: The element:  a[class="language--link"] was clicked
-2020-01-22T20:30:08.449Z - info: The element:  ul[class="language--tooltip"] a[data-language='en'] was clicked
-2020-01-22T20:30:09.102Z - info: This text: 'HOME' was obtained from locator:  div[class="navbar-left-1"] ul[class$="navbar-left"] li:first-child a[href^="/e"]
-2020-01-22T20:30:09.150Z - error: 
-The following error was found in the browser console: 
-	https://www.googletagmanager.com/gtm.js?id=GTM-N8XP39M - Failed to load resource: the server responded with a status of 404 () 
-
-2020-01-22T20:30:09.151Z - error: 
-The following error was found in the browser console: 
-	https://wearepsh.com/en/ - A cookie associated with a cross-site resource at http://youtube.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032. 
-
-2020-01-22T20:30:09.151Z - error: 
-The following error was found in the browser console: 
-	https://wearepsh.com/en/ - A cookie associated with a cross-site resource at http://doubleclick.net/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032. 
-
-2020-01-22T20:30:09.152Z - error: 
-The following error was found in the browser console: 
-	https://www.googletagmanager.com/gtm.js?id=GTM-N8XP39M - Failed to load resource: the server responded with a status of 404 () 
-
-2020-01-22T20:30:09.152Z - error: 
-The following error was found in the browser console: 
-	https://wearepsh.com/es/ - A cookie associated with a cross-site resource at http://youtube.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032. 
-
-2020-01-22T20:30:09.153Z - error: 
-The following error was found in the browser console: 
-	https://wearepsh.com/es/ - A cookie associated with a cross-site resource at http://doubleclick.net/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032. 
-
-2020-01-22T20:30:09.153Z - error: 
-The following error was found in the browser console: 
-	https://www.googletagmanager.com/gtm.js?id=GTM-N8XP39M - Failed to load resource: the server responded with a status of 404 () 
-
-2020-01-22T20:30:09.153Z - error: 
-The following error was found in the browser console: 
-	https://wearepsh.com/en/ - A cookie associated with a cross-site resource at http://youtube.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032. 
-
+2020-01-22T21:27:41.411Z - info: This text: 'lucas' was sended to  input[name="username"]

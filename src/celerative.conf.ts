@@ -15,7 +15,7 @@ declare const allure: any;
 
 export const config: Config = {
 	framework: 'jasmine2',
-	baseUrl: 'https://wearepsh.com/en/',
+	baseUrl: 'https://frontend-demo.pty.serverdepruebas.com/',
 	SELENIUM_PROMISE_MANAGER: false,
 
 	/***
@@ -40,7 +40,7 @@ export const config: Config = {
 	multiCapabilities: BrowserUtilities.multiCapabilitiesConfigs,
 
 	suites: {
-		celerative: ['./celerative/tests/*.js'],
+		celerative: ['./celerative/tests/Login/*.js'],
 	},
 
 	plugins: PluginUtilities.pluginConfig,
