@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1572917298447' stop='1572917326771'>
+    <name>Psh site validations</name>
+    <title>Psh site validations</title>
+    <test-cases>
+        <test-case start='1572917298448' status='passed' stop='1572917326751'>
+            <name>Site language should change</name>
+            <title>Site language should change</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7b7dd22a-8fea-4796-b140-99a6fd973ef5-attachment.png' type='image/png' size='1926976'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

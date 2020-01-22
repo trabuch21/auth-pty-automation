@@ -1,0 +1,56 @@
+{
+  "name": "bender",
+  "version": "1.0.0",
+  "description": "Framework for automation E2E and API testing",
+  "main": "bender-setup.js",
+  "scripts": {
+    "bender": "node bender-setup",
+    "start": "node src/flake",
+    "prestart": "tsc && ts-cleaner -d js-files",
+    "generate-report": "allure generate logger-bag/allure-report --clean -o logger-bag/allure-output || true",
+    "open-report": "allure open logger-bag/allure-output",
+    "wd-update": "webdriver-manager update",
+    "lint": "eslint src --ext .ts ",
+    "lint:fix": "eslint --fix ./src/ --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:trabuch21/auth-pty-automation.git"
+  },
+  "keywords": [
+    "bender"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.1",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-protractor": "^2.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "jasmine-reporters": "^2.3.2",
+    "prettier": "^1.17.0",
+    "protractor-image-comparison": "^3.8.1"
+  },
+  "dependencies": {
+    "@types/jasmine": "^3.4.1",
+    "@types/jasminewd2": "^2.0.8",
+    "@types/node": "^12.7.8",
+    "allure-commandline": "^2.13.0",
+    "fs-extra": "^8.1.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-failures-slack-reporter": "^1.0.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.2",
+    "protractor-flake": "^4.0.0",
+    "shelljs": "^0.8.3",
+    "sync-request": "^6.1.0",
+    "ts-cleaner": "^1.0.3",
+    "ts-node": "8.4.1",
+    "typescript": "~3.6.3",
+    "winston": "^3.2.1"
+  }
+}
