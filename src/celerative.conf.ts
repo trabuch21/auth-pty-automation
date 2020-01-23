@@ -2,7 +2,6 @@
 import {
 	BrowserUtilities,
 	PluginUtilities,
-	ReporterUtilities,
 	ScreenshotsUtilities,
 } from './celerative/utilities/config-utilities';
 /* eslint-disable-next-line */

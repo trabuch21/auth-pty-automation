@@ -2,14 +2,14 @@ import { loginPage } from '../../page-objects/login-page';
 import { browser } from 'protractor';
 
 
-describe('Suite 1', () =>{
-	it('Test 1', async () =>{
+describe('Login test cases', () =>{
+	it('Succesfully logged into', async () =>{
+		
 		await browser.sleep(5000);
 		
 		await browser.switchTo().frame(0);
 		
-		await loginPage.inputText(loginPage.username, "lucas");
+		await loginPage.login("lucas", "trabuchi") ;
 		
-		await browser.sleep(2000);
 	})
 })

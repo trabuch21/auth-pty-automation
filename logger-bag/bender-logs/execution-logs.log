@@ -1,5 +1,7 @@
-2020-01-22T21:27:30.875Z - info: 
+2020-01-23T20:12:40.509Z - info: 
  • Current test running: 
 	 • Suite 1 Test 1
 
-2020-01-22T21:27:41.411Z - info: This text: 'lucas' was sended to  input[name="username"]
+2020-01-23T20:12:51.453Z - info: This text: 'lucas' was sended to  input[name="username"]
+2020-01-23T20:12:51.770Z - info: This text: 'trabuchi' was sended to  input[name="password"]
+2020-01-23T20:12:52.117Z - info: The element:  button[class*="login"] was clicked
