@@ -63,8 +63,6 @@ export const config: Config = {
 			}),
 		);
 
-		await ReporterUtilities.setSlackReporter();
-
 		const dirPathsToClean = [
 			'logger-bag/allure-output',
 			'logger-bag/allure-report',

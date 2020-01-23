@@ -134,20 +134,3 @@ export abstract class PluginUtilities {
 		},
 	];
 }
-
-export abstract class ReporterUtilities {
-	static setSlackReporter = (): any => {
-		browser.getProcessedConfig().then(function(config) {
-			const browserName = config.capabilities.browserName;
-			const url = config.baseUrl;
-			jasmine.getEnv().addReporter(
-				new webRep.WebReporter({
-					projectName: 'Bender - PSh end 2 end tests',
-					environment: `\nBrowser: ${browserName}\nBase URL: ${url}`,
-					slackUrl: 'https://hooks.slack.com/services/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',
-					channel: '#psh-bender-failures',
-				}),
-			);
-		});
-	};
-}
